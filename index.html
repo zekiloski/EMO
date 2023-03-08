@@ -1,99 +1,80 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Oncativo SA</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/css/fontawesome-iconpicker.css"
-      integrity="sha512-9yS+ck0i78HGDRkAdx+DR+7htzTZJliEsxQOoslJyrDoyHvtoHmEv/Tbq8bEdvws7s1AVeCjCMOIwgZTGPhySw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!--Menu de Lateral-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-      <div class="container-fluid">
-        <a href="" class="navbar-brand text-white fw-semibold fs-4 "><img class="col-sm-8" src="img/logoEMOTrans.png" alt=""></a>
 
-        <!--Boton-->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="offcanvas"
-          data-bs-target="#menulateral"
-        >
-          <span class="navbar-toggler-icon"> </span>
-        </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oncativo SA</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/css/fontawesome-iconpicker.css"
+    integrity="sha512-9yS+ck0i78HGDRkAdx+DR+7htzTZJliEsxQOoslJyrDoyHvtoHmEv/Tbq8bEdvws7s1AVeCjCMOIwgZTGPhySw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-        <!--Off Canvas titulo y boton cerrar del Menu-->
-        <section
-          class="offcanvas offcanvas-start bg-dark"
-          id="menulateral"
-          tabindex="
-            -1"
-        >
-          <div class="offcanvas-header" data-bs-theme="dark">
-            <h5 class="offcanvas-title text-success"><img src="img/configuraciones.png" alt=""></h5>
-            <button
-              class="btn-close"
-              type="button"
-              arial-label="Close"
-              data-bs-dismiss="offcanvas"
-            ></button>
+<body>
+  <!--Menu de Lateral-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand text-white fw-semibold fs-4 "><img class="col-sm-8" src="img/logoEMOTrans.png"
+          alt=""></a>
+
+      <!--Boton-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menulateral">
+        <span class="navbar-toggler-icon"> </span>
+      </button>
+
+      <!--Off Canvas titulo y boton cerrar del Menu-->
+      <section class="offcanvas offcanvas-start bg-dark" id="menulateral" tabindex="
+            -1">
+        <div class="offcanvas-header" data-bs-theme="dark">
+          <h5 class="offcanvas-title text-success"><img src="img/configuraciones.png" alt=""></h5>
+          <button class="btn-close" type="button" arial-label="Close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <!--Link del menu   -->
+        <div class="offcanvas-body d-flex flex-column justify-content-evenly px-0">
+          <ul class="navbar-nav fs-5 justify-content-end">
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Productos</a>
+            </li>
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Novedades</a>
+            </li>
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Descargas</a>
+            </li>
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Contactos</a>
+            </li>
+            <li class="nav-item p-2 py-md-1">
+              <a href="" class="nav-link">Idioma</a>
+            </li>
+          </ul>
+          <!--Offcanvas Icones redes ver pq no funsiona iconos redes-->
+          <div class="d-lg-none align-self-center py-3">
+            <a href=""><i class="fa-brands fa-instagram px-2 text-info fs-2"></i></a>
+            <a href=""><i class="fa-brands fa-facebook px-2 text-info fs-2"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp px-2 text-info fs-2"></i></a>
+            <a href=""><i class="fa-brands fa-telegram px-2 text-info fs-2"></i></a>
           </div>
+        </div>
+      </section>
+      <!--Off Canvas Contenido del Menu-->
+    </div>
+  </nav>
 
-          <!--Link del menu   -->
-          <div
-            class="offcanvas-body d-flex flex-column justify-content-evenly px-0"
-          >
-            <ul class="navbar-nav fs-5 justify-content-end">
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Inicio</a>
-              </li>
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Sobre Nosotros</a>
-              </li>
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Productos</a>
-              </li>
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Novedades</a>
-              </li>
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Descargas</a>
-              </li>
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Contactos</a>
-              </li>
-              <li class="nav-item p-2 py-md-1">
-                <a href="" class="nav-link">Idioma</a>
-              </li>
-            </ul>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js"
+    integrity="sha512-7dlzSK4Ulfm85ypS8/ya0xLf3NpXiML3s6HTLu4qDq7WiJWtLLyrXb9putdP3/1umwTmzIvhuu9EW7gHYSVtCQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
 
-            <!--Offcanvas Icones redes ver pq no funsiona iconos redes-->
-            <div class="d-lg-none align-self-center py-3">
-                <a href=""><i class="fa-brands fa-instagram px-2 text-info fs-2"></i></a>
-                <a href=""><i class="fa-brands fa-facebook px-2 text-info fs-2"></i></a>
-                <a href=""><i class="fa-brands fa-whatsapp px-2 text-info fs-2"></i></a>
-                <a href=""><i class="fa-brands fa-telegram px-2 text-info fs-2"></i></a>
-            </div>
-          </div>
-        </section>
-        <!--Off Canvas Contenido del Menu-->
-      </div>
-    </nav>
-
-    <script src="js/bootstrap.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js"
-      integrity="sha512-7dlzSK4Ulfm85ypS8/ya0xLf3NpXiML3s6HTLu4qDq7WiJWtLLyrXb9putdP3/1umwTmzIvhuu9EW7gHYSVtCQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </body>
 </html>
