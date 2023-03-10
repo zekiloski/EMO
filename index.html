@@ -7,11 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Oncativo SA</title>
   <link rel="stylesheet" href="css/miestilo.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/css/fontawesome-iconpicker.css"
     integrity="sha512-9yS+ck0i78HGDRkAdx+DR+7htzTZJliEsxQOoslJyrDoyHvtoHmEv/Tbq8bEdvws7s1AVeCjCMOIwgZTGPhySw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -73,35 +77,41 @@
   </nav>
 
   <!--Carrusel de Imagen Empresa-->
-  
-  <div id="carouselExampleCaptions" class="carousel slide">
+
+  <!-- <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
 
-    
+
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item active" data-bs-interval="10000">
         <img src="img/horno_personal01.jpg" class="d-block w-100" alt="horno_personal01">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Trayectoria, calidad y tecnología, el equilibrio perfecto para una empresa con liderazgo</h1>
-          <p>Comercializamos 18 paìses abarcamos 4 continentes</p>
+          <h1 class="animate__animated animate__backInRight">Trayectoria, calidad y tecnología, el equilibrio perfecto
+            para una empresa con liderazgo</h1>
+          <p class="animate__animated animate__backInUp">Comercializamos 18 paìses abarcamos 4 continentes</p>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item" data-bs-interval="2000">
         <img src="img/sello_horno02.jpg" class="d-block w-100" alt="sello_horno02">
         <div class="carousel-caption d-none d-md-block">
-          <h1>En repuestos agrícolas, Oncativo SA marca el rumbo</h1>
-          <p>80 años de trayectoria avalan nuestra exelencia</p>
+          <h1 class="animate__animated animate__backInRight">En repuestos agrícolas, Oncativo SA marca el rumbo</h1>
+          <p class="animate__animated animate__backInUp">80 años de trayectoria avalan nuestra exelencia</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/disco_horno03.jpg" class="d-block w-100" alt="disco_horno03">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Nuestros Productos</h1>
-          <p>Se distribuyen en el mercado interno, con un trabajo articulado entre nuestros agentes de ventas y una extensa red de consecionarios.</p>
+          <h1 class="animate__animated animate__backInRight">Nuestros Productos</h1>
+          <p class="animate__animated animate__backInUp">Se distribuyen en el mercado interno, con un trabajo articulado
+            entre nuestros agentes de ventas y una
+            extensa red de consecionarios.</p>
         </div>
       </div>
     </div>
@@ -113,13 +123,56 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
+  </div> -->
+
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/horno_personal01.jpg" class="d-block w-100" alt="horno_personal01">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="animate__animated animate__backInRight">Trayectoria, calidad y tecnología, el equilibrio perfecto
+            para una empresa con liderazgo</h1>
+          <p class="animate__animated animate__backInUp">Comercializamos 18 paìses abarcamos 4 continentes</p>
+        </div>
+      </div>
+      <div class="carousel-item" >
+        <img src="img/sello_horno02.jpg" class="d-block w-100" alt="sello_horno02">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="animate__animated animate__backInRight">En repuestos agrícolas, Oncativo SA marca el rumbo</h1>
+          <p class="animate__animated animate__backInUp">80 años de trayectoria avalan nuestra exelencia</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/disco_horno03.jpg" class="d-block w-100" alt="disco_horno03">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="animate__animated animate__backInRight">Nuestros Productos</h1>
+          <p class="animate__animated animate__backInUp">Se distribuyen en el mercado interno, con un trabajo articulado
+            entre nuestros agentes de ventas y una
+            extensa red de consecionarios.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
 
-  <script src="js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js"
-    integrity="sha512-7dlzSK4Ulfm85ypS8/ya0xLf3NpXiML3s6HTLu4qDq7WiJWtLLyrXb9putdP3/1umwTmzIvhuu9EW7gHYSVtCQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
